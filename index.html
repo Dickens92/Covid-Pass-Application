@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,45 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    
-    <h3> The Registry</h3>
-    <p> Enter the Person's ID to confirm their Vaccination Status</p>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="Registry">
+                <h3> The Registry</h3>
+                <p> Enter the Person's ID to confirm their Vaccination Status</p>
+                <form style="text-align: center; align-content: center;">
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationServer01">Client's Identification Number</label>
+                            <input type="text" class="form-control is-valid" id="validationServer01"
+                                placeholder=" 12345.." required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+                                    required>
+                                <label class="form-check-label" for="invalidCheck3">
+                                    Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Check Vaccination Status</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
 
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
