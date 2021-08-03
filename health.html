@@ -15,9 +15,11 @@
         <div class="card">
             <h4>*The following form should be filled <strong>ONLY</strong> by institutions approved by the <strong>Ministry Of Health </strong></strong>* </h4>
             <form id="form1" name="form" class="form" action="">
-                <div class="form-group">
-                    <label id="patient" for="patient">PATIENTS'S ID</label>
-                    <br><input type="patient" class="form-control" id="patient" placeholder="ID Number..." name="patient">
+                <div class="col-md-4 mb-3">
+                    <div class="form-group">
+                        <label id="patient" for="patient">PATIENTS'S ID</label>
+                        <br><input type="patient" class="form-control" id="patient" placeholder="ID Number..." name="patient">
+                    </div>
                 </div>
                 <div class="form-group">
                     <label id="gender" for="month">GENDER</label><br>
@@ -63,10 +65,13 @@
                 
             </select>
                 </div>
-                <div class="form-group">
-                    <br><label for="place">PLACE FOR VACCINATION</label>
-                    <input type="place" class="form-control" id="place" placeholder="" name="place">
+                <div class="col-md-4 mb-3">
+                    <div class="form-group">
+                        <br><label for="place">PLACE FOR VACCINATION</label>
+                        <input type="place" class="form-control" id="place" placeholder="" name="place">
+                    </div>
                 </div>
+                <button class="btn btn-primary" id="button" type="button">submit</button>
 
 
             </form>
