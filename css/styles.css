@@ -1,5 +1,7 @@
 h4 {
     padding-bottom: 2%;
+    padding-top: 2%;
+    font-family: 'Trebuchet MS';
 }
 
 .form-group {
@@ -20,6 +22,12 @@ body {
     background-image: url(https://media.istockphoto.com/photos/coronavirus-cells-picture-id1203824669?k=6&m=1203824669&s=612x612&w=0&h=2JHLeNh7MvBmEAxShOZIoFY9P7wR3qLR1WpjjCds4R0=);
 }
 
-.place #button {
-    padding-bottom: 23%;
+.button {
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    margin-left: 2%;
+}
+
+#patient {
+    padding-right: 50%;
 }
