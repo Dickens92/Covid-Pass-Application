@@ -31,3 +31,11 @@ body {
 #patient {
     padding-right: 50%;
 }
+
+.number {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
