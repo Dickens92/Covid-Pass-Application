@@ -10,30 +10,28 @@
 </head>
 
 <body>
-    <form id="form1" name="form" class="form" action="">
-        <div class="form-group">
-            <label for="patient">PATIENTS'S ID</label>
-            <br><input type="patient" class="form-control" id="patient" placeholder="ID Number..." name="patient">
-        </div>
-        <div class="form group">
-            <br><label for="month">GENDER</label>
-            <div class="form-check-inline">
-                <label class="form-check-label">
-              <br>
-              <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
-            </label>
+    <div class="container">
+        <form id="form1" name="form" class="form" action="">
+            <div class="form-group">
+                <label for="patient">PATIENTS'S ID</label>
+                <br><input type="patient" class="form-control" id="patient" placeholder="ID Number..." name="patient">
             </div>
-        </div>
-        <div class="form-group">
-            <div class="form-check-inline">
-                <label class="form-check-label">
-              <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
-            </label>
+            <div class="form-group">
+                <label for="month">Gender</label><br>
+                <div class="form-check-inline">
+                    <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
+                </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
+                </label>
+                </div>
             </div>
-        </div>
 
-        <label for="dose">DOSE TYPE</label><br>
-        <select id="dose" name="dose" required>
+            <label for="dose">DOSE TYPE</label><br>
+            <select id="dose" name="dose" required>
                 <option disabled selected>Dose</option>
                 <option value=""> AstraZeneca/AZD1222 </option>
                 <option value="veg">VEGETARIAN</option>
@@ -42,7 +40,8 @@
         </select>
 
 
-    </form>
+        </form>
+    </div>
 
 </body>
 
