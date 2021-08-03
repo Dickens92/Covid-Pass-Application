@@ -30,17 +30,34 @@
                 </div>
             </div>
 
-            <label for="dose">DOSE TYPE</label><br>
-            <select id="dose" name="dose" required>
-                <option disabled selected>Dose</option>
-                <option value="astra"> AstraZeneca/AZD1222 </option>
+            <label for="vaccine">VACCINE TYPE</label><br>
+            <select id="vaccine" name="vaccine" required>
+                <option disabled selected>Vaccine</option>
+                <option value="astra"> AstraZeneca</option>
                 <option value="mod">Moderna</option>
                 <option value="john">Johnson & Johnson</option>
                 <option value="Sino">Sinopharm</option>
                 <option value="nov">Novavax </option>
                 <option value="fizer">Pfizer-BioNTech</option>
+            </select>
+
+            <label for="dose">DOSAGE AMOUNT</label><br>
+            <select id="dose" name="dose">
+                <option disabled selected>Dose</option>
+                <option value="one">2 doses AstraZeneca</option>
+                <option value="two">1 dose AstarZeneca</option>
+                <option value="three">2 doses Moderna</option>
+                <option value="four">1 dose Moderna</option>
+                <option value="five">2 doses Johnson & Johnson</option>
+                <option value="six">1 dose Johnson & Johnson</option>
+                <option value="seven">2 doses Sinopharm</option>
+                <option value="eight">1 dose Sinopharm</option>
+                <option value="nine">2 doses Novavax </option>
+                <option value="ten">1 dose Novavax</option>
+                <option value="eleven">2 doses Pfizer-BioNTech</option>
+                <option value="twelve">1 dose Pfizer-BioNTech</option>
                 
-        </select>
+            </select>
 
 
         </form>
