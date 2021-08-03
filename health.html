@@ -12,28 +12,29 @@
 
 <body>
     <div class="container">
-        <h4>*The following form should be filled <strong>ONLY</strong> by instituions approved by the <strong>Ministry Of Health </strong></strong>* </h4>
-        <form id="form1" name="form" class="form" action="">
-            <div class="form-group">
-                <label for="patient">PATIENTS'S ID</label>
-                <br><input type="patient" class="form-control" id="patient" placeholder="ID Number..." name="patient">
-            </div>
-            <div class="form-group">
-                <label for="month">GENDER</label><br>
-                <div class="form-check-inline">
-                    <label class="form-check-label">
+        <div class="card">
+            <h4>*The following form should be filled <strong>ONLY</strong> by institutions approved by the <strong>Ministry Of Health </strong></strong>* </h4>
+            <form id="form1" name="form" class="form" action="">
+                <div class="form-group">
+                    <label for="patient">PATIENTS'S ID</label>
+                    <br><input type="patient" class="form-control" id="patient" placeholder="ID Number..." name="patient">
+                </div>
+                <div class="form-group">
+                    <label for="month">GENDER</label><br>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
                   <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
                 </label>
-                </div>
-                <div class="form-check-inline">
-                    <label class="form-check-label">
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
                   <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
                 </label>
+                    </div>
                 </div>
-            </div>
 
-            <label for="vaccine">VACCINE TYPE</label><br>
-            <select id="vaccine" name="vaccine" required>
+                <label for="vaccine">VACCINE TYPE</label><br>
+                <select id="vaccine" name="vaccine" required>
                 <option disabled selected>Vaccine</option>
                 <option value="astra"> AstraZeneca</option>
                 <option value="mod">Moderna</option>
@@ -43,8 +44,8 @@
                 <option value="fizer">Pfizer-BioNTech</option>
             </select>
 
-            <br><label for="dose">DOSAGE AMOUNT</label><br>
-            <select id="dose" name="dose">
+                <br><label for="dose">DOSAGE AMOUNT</label><br>
+                <select id="dose" name="dose">
                 <option disabled selected>Dose</option>
                 <option value="one">2 doses AstraZeneca</option>
                 <option value="two">1 dose AstarZeneca</option>
@@ -60,11 +61,12 @@
                 <option value="twelve">1 dose Pfizer-BioNTech</option>
                 
             </select>
-            <br><label for="place">PLACE FOR VACCINATION</label>
-            <input type="place" class="form-control" id="place" placeholder="" name="place">
+                <br><label for="place">PLACE FOR VACCINATION</label>
+                <input type="place" class="form-control" id="place" placeholder="" name="place">
 
 
-        </form>
+            </form>
+        </div>
     </div>
 
 </body>
