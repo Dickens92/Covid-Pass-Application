@@ -5,29 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Health Registry Form</title>
 </head>
 
 <body>
     <form id="form1" name="form" class="form" action="">
-        <label for="patient">PATIENTS'S ID</label>
-        <br><input type="patient" class="form-control" id="patient" placeholder="ID Number..." name="patient">
-
-        <br><label for="month">GENDER</label>
-        <div class="form-check-inline">
-            <label class="form-check-label">
+        <div class="form-group">
+            <label for="patient">PATIENTS'S ID</label>
+            <br><input type="patient" class="form-control" id="patient" placeholder="ID Number..." name="patient">
+        </div>
+        <div class="form group">
+            <br><label for="month">GENDER</label>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+              <br>
               <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
             </label>
+            </div>
         </div>
-        <div class="form-check-inline">
-            <label class="form-check-label">
+        <div class="form-group">
+            <div class="form-check-inline">
+                <label class="form-check-label">
               <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
             </label>
+            </div>
         </div>
 
-        <label for="dose">Dose Type</label><br>
+        <label for="dose">DOSE TYPE</label><br>
         <select id="dose" name="dose" required>
-                <option disabled selected>Dose Type</option>
+                <option disabled selected>Dose</option>
                 <option value=""> AstraZeneca/AZD1222 </option>
                 <option value="veg">VEGETARIAN</option>
                 <option value="pepe">PEPERONI</option>
