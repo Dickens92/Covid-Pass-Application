@@ -33,7 +33,8 @@ body {
 }
 
 .number {
-    text-align: center;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
 .center {
@@ -42,4 +43,12 @@ body {
 
 h2 {
     text-align: center;
+}
+
+.paragraph {
+    margin-left: 10%;
+}
+
+.form {
+    margin-left: 5%;
 }
