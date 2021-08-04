@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+/* 
+ */
+
+
+/* 
+  */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body {}
+
+.buttons {
+    justify-content: space-around;
+    display: flex;
+}
+
+.menu {
+    justify-content: space-between;
+    display: flex;
+    color: red;
+}
+
+nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: black;
+}
