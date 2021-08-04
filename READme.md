@@ -1,7 +1,7 @@
 
 # {COVID Pass}
 #### {A web application for users to check vaccination status of their clients}, {23/7/2021}
-#### By **{Dickens Philip, Ryan Munene, Brenda Kanale and Danusin Muthee}**
+#### By **{Dickens Philip, Ryan Munene, Brenda Kanale and Danson Muthee}**
 ## Description
 {The software  allows healthcare facilities to enter identification data for individuals after receiving a vaccine in a database which is then accessible to permitted organizations upon approval. The other users can then key in client's ID number then receives confirmation whether the person is vaccinated or unvaccinated, number of doses received as well as the type of vaccine received.}
 ## Setup/Installation Requirements
