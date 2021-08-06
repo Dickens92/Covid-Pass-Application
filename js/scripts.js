@@ -36,7 +36,7 @@ var button = document.getElementById("submit");
 button.onclick = checkStatus;
 
 function checkStatus() {
-    var numb = ['22333', '8488400', '383838363', '939373'];
+    var numb = ['22333', '8488400', '29428333','383838363', '939373'];
     var input = document.getElementById("digit").value;
     if (numb.indexOf(input) >= 0) {
         alert("CLIENT VACCINATED")
