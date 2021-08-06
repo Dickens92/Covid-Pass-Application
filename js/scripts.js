@@ -41,6 +41,6 @@ function checkStatus() {
     if (numb.indexOf(input) >= 0) {
         alert("CLIENT VACCINATED")
     } else {
-        alert("NOT VACCINATED -Please refer to Covid Protocols")
+        alert("NOT VACCINATED- Please refer to Covid Protocols for the Unvaccinated and advice accordingly")
     }
 }
